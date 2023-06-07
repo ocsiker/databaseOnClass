@@ -14,9 +14,9 @@ entity GV_DT
 
 entity GIAOVIEN
 {
- GVQL: char(5) <<FK>>
+ GVQL: char(5) 
 * MaGV:char(5)
- MaBM:nchar(5) <<FK>>
+ MaBM:nchar(5) 
 ---------
  HoTen: nvarchar(40)
  Luong: float
@@ -35,8 +35,8 @@ entity GIAOVIEN
 entity BOMON
 {
 * MaBM: nchar(5)
-MaKhoa: char(4)<<FK>>
-TruongBM: char(5)<<FK>>
+MaKhoa: char(4)
+TruongBM: char(5)
 ---------
 NgayNhanChuc: datetime
 DienThoai: char(12)
@@ -48,7 +48,7 @@ Phong: char(5)
 entity KHOA
 {
 * MaKhoa: char(4)
- TruongKhoa: char(5) <<FK>>
+ TruongKhoa: char(5) 
 ---------
  NgayNhanChuc: datetime
  TenKhoa: nvarchar(40)
@@ -60,8 +60,8 @@ entity KHOA
 entity DETAI
 {
 * MaDT: char(3)
- GVCNDT: char(5) <<FK>>
- MaCD: nchar(4) <<FK>>
+ GVCNDT: char(5) 
+ MaCD: nchar(4) 
 ---------
  TenDT: nvarchar(100)
  KinhPhi: float
@@ -73,7 +73,7 @@ entity DETAI
 
 entity CONGVIEC
 {
-* MaDT: char(3) <<FK>>
+* MaDT: char(3) 
 * STT: int 
 ---------
 TenCV:nvarchar(40)
@@ -90,9 +90,9 @@ TenCD: nvarchar(50)
 
 entity THAMGIADT
 {
-* MaGV: char(5) <<FK>>
-* MaDT: char(3) <<FK>>
-* STT: int <<FK>>
+* MaGV: char(5) 
+* MaDT: char(3) 
+* STT: int 
 ---------
  PhuCap: float
  KetQua: nvarchar(40)
