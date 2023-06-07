@@ -3,11 +3,11 @@
 /' top to bottom direction '/
 left to right direction 
 skinparam roundcorner 5
-/' skinparam linetype ortho '/ 
+/' skinparam linetype ortho '/
 
 entity GV_DT
 {
-* MaGV: char(5) << FK>>
+* MaGV: char(5)
 * DienThoai: char(12)
 ---------
 }
@@ -100,7 +100,7 @@ entity THAMGIADT
 
 
 /' TODO quan he giua giao vien va giao vien quan ly '/
-GIAOVIEN::GVQL }|--o| GIAOVIEN::MaGV
+GIAOVIEN::GVQL }|-up-o| GIAOVIEN::MaGV
 GIAOVIEN::MaBM ||--o{ BOMON::MaBM
 GV_DT::MaGV |o--|{ GIAOVIEN::MaGV
 BOMON::MaKhoa ||--|{ KHOA::MaKhoa
