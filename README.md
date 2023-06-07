@@ -8,7 +8,7 @@ GROUP's MEMBER :
 ---
 
 - Link report:
-[googledocs](https://docs.google.com/document/d/1oomWDZcPJYTj1XevpfVIDlYw6uCq0GJg/edit?rtpof=true&sd=true&fbclid=IwAR2WYNOt-uv5hG8kY-eImW_4M1RvtmiX5ROrFx3Ov0mYP1XWrij3wmkDO9c)
+[googledocs] (https://docs.google.com/document/d/10Ywe8_p5Un8TfwsBL2zldWRSQBtuAY6SXpbJkyY2WGQ/edit?fbclid=IwAR0t4Cq8tTbpUlO83j_M2TvWGkr2JZFWmOztYuhHrL1IeCfpJcJPYvUkAK8)
 
 - REFERENCES: <br>
  - Plantuml:<br>
