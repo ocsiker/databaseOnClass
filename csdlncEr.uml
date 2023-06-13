@@ -65,7 +65,7 @@ CRoom: ( BIdg char(5), RoomNo char(3))
 DaysTime: datetime
 }
 
-COLLEGE |o..|| INSTRUCTOR :DEAN
+COLLEGE ||..o| INSTRUCTOR :DEAN
 COLLEGE }o..|| DEPT :ADMINS
 DEPT ||..o| INSTRUCTOR :CHAIR
 DEPT }o..o| INSTRUCTOR :EMPLOYS
