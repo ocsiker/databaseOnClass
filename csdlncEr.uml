@@ -1,0 +1,80 @@
+@startuml
+ 
+skinparam backgroundColor LightGrey
+skinparam ClassBackgroundColor SkyBlue
+skinparam ClassBorderColor CornflowerBlue
+
+entity COLLEGE
+{
+* CName: char(20)
+---
+COffice: char(20)
+CPhone: char(10)
+}
+
+entity DEPT
+{
+* DName: char(20)
+* DCode: char(10)
+---
+DOffice: char(20) 
+DPhone: char(10)
+}
+
+entity INSTRUCTOR
+{
+* Id: char(10)
+---
+IName: char(20)
+IOffice: char(20)
+IPhone: char(10)
+Rank: int(3) 
+}
+
+
+entity COURSE
+{
+* CCode: char(10)
+* CoName: char(20)
+---
+Credits: char(20)
+Level: char(3)
+CDesc: 
+}
+
+entity STUDENT
+{
+* Sid: char(10)
+---
+DOB: datetime
+SName: ( FName char(20), MName char(20), LName char(20) )
+Addr: char(50)
+Phone: char(10)
+Major: char(10)
+}
+
+
+entity SECTION
+{
+* SecId: char(10)
+---
+SecNo: char(10)
+Sem: char(3)
+Year: datetime
+CRoom: ( BIdg char(5), RoomNo char(3))
+DaysTime: datetime
+}
+
+COLLEGE |o..|| INSTRUCTOR :DEAN
+COLLEGE }o..|| DEPT :ADMINS
+DEPT ||..o| INSTRUCTOR :CHAIR
+DEPT }o..o| INSTRUCTOR :EMPLOYS
+DEPT }o..o| STUDENT :HAS
+COURSE }o..|| SECTION :SECS
+DEPT }o..|| COURSE :OFFERS
+STUDENT }o..{ SECTION :TAKES
+INSTRUCTOR }o--|| SECTION :TEACHES
+
+
+
+@enduml
