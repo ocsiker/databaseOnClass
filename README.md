@@ -12,7 +12,7 @@ Schedule <br>
 ```mermaid
 gantt
 title  SCHEDULE 
-dateFormat: DD-MM-YY 
+dateFormat  DD-MM-YY 
 section Project
 Front_end: fe, 15-06-23, 20d
 
