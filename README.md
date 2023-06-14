@@ -14,7 +14,8 @@ gantt
 title  SCHEDULE 
 dateFormat: DD-MM-YY 
 section Project
-Front end: fe, 15-06-23, 20
+Front_end: fe, 15-06-23, 20d
+
 ```
 
 - Link report:
