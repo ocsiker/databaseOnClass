@@ -1,6 +1,6 @@
 @startuml
-skinparam linetype polyline
-skinparam linetype ortho
+/' skinparam linetype polyline '/
+/' skinparam linetype ortho '/
 skinparam backgroundColor LightGrey
 skinparam ClassBackgroundColor SkyBlue
 skinparam ClassBorderColor CornflowerBlue
