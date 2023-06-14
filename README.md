@@ -14,7 +14,7 @@ gantt
 title  SCHEDULE 
 dateFormat  DD-MM-YY 
 section Project
-Front_end: fe, 15-06-23, 20d
+Front end: fe, 15-06-23, 20d
 Back end: be, 18-06-23, 40d
 section OnClassExecise
 Execise 1: ex1, 14-06-23, 5d
