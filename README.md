@@ -8,7 +8,9 @@ GROUP's MEMBER :
 ---
 Schedule <br>
 
-```gantt
+
+```mermaid
+gantt
 title  SCHEDULE 
 dateFormat: DD-MM-YY 
 section Project
