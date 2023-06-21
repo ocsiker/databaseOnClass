@@ -11,14 +11,27 @@ Schedule <br>
 
 ```mermaid
 gantt
-title  SCHEDULE 
-dateFormat  DD-MM-YY 
-section Project
-Front end: fe, 15-06-23, 20d
-Back end: be, 18-06-23, 40d
-section OnClassEx
-Execise 1: ex1, 14-06-23, 5d
-Execise 2: after ex1 ex2, 5d
+      title  SCHEDULE 
+      dateFormat  DD-MM-YY 
+
+      section Project
+
+      Completedproject: cp, 15-07-23,16-07-23
+
+
+      section Conceptual 
+      Design: des,21-06-23,2d
+      Normalization: nor,21-06-23,2d 
+      ER: after des, 1d 
+
+      section Logical
+
+      section Physical
+
+
+      section Java
+      section FrontEnd
+      section BackEnd
 
 
 ```
