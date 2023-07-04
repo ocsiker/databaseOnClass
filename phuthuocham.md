@@ -38,4 +38,20 @@ do đó {A,C} là siêu khóa
 đồng thời {A,C} là siêu khóa tối thiểu vì nếu bỏ A hoặc C thi không còn là siêu khóa vậy {A,C} là khóa.
 
 5.
+Xet DE → A thi {D,E}^+ = {A,D,E}
+Xet C → DE thi {C}^+ = {C,D,E} ngoai ra DE → A nen {C}^+ = {A,C,D,E}
+Xet AD → B thi {A,D}^+ = {A,B,D}
+Xet BE → C thi {B,E}^+ = {B,C,E} ma C → DE nen {B,E}^+ = {B,C,D,E} ngoai ra C → A vay {B,E}^+ = {A,B,C,D,E}
+
+vay {B,E} la khoa
+
+6.
+
+Xet A → B thi {A}^+ = {A,B}
+Xet BC → D thi {B,C}^+ = {B,C,D} ma D → A nen {B,C}^+ = {A,B,C,D}
+Xet D → A thi {D}^+ = {A,D} ma A → B nen {D}^+ = {A,B,D} thieu C
+
+vay {B,C}^+ la khoa
+
+
 
