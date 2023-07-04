@@ -4,7 +4,6 @@
 A → B => {A}<sup>+</sup> = {A,B}
 B → C, A → B bắt cầu A → C, {A}<sup>+</sup> = {A,B,C}
 tương tự D và E => {A}<sup>+</sup> = {A,B,C,D,E}
-
 vậy {A}<sup>+</sup> = {A,B,C,D,E}
 
 2. 
