@@ -47,8 +47,4 @@ vay {B,E} la khoa
 Xet A → B thi {A}<sup>+</sup> = {A,B}
 Xet BC → D thi {B,C}<sup>+</sup> = {B,C,D} ma D → A nen {B,C}<sup>+</sup> = {A,B,C,D}
 Xet D → A thi {D}<sup>+</sup> = {A,D} ma A → B nen {D}<sup>+</sup> = {A,B,D} thieu C
-
 vay {B,C} la khoa
-
-
-
