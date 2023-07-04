@@ -1,31 +1,30 @@
 ## Phu Thuoc Ham Nhom 05
 
-1. {A}<sup>+</sup> = A
+1. <br>
+{A}<sup>+</sup> = A
 A → B => {A}<sup>+</sup> = {A,B}
 B → C, A → B bắt cầu A → C, {A}<sup>+</sup> = {A,B,C}
 tương tự D và E => {A}<sup>+</sup> = {A,B,C,D,E}
 vậy {A}<sup>+</sup> = {A,B,C,D,E}
 
-2. 
+2.  <br>
 {A,B}<sup>+</sup> = {A,B,C }
 
-kiểm tra BC→AD : 
-ta co: AB → B, AB → C nen AB → BC ma BC → AD vì vậy ta thêm D vào {A,B}<sup>+</sup>={A,B,C,D}
+kiểm tra BC→AD : AB → B, AB → C nen AB → BC ma BC → AD vì vậy ta thêm D vào {A,B}<sup>+</sup>={A,B,C,D}
 
 kiểm tra D→E : ta thêm E vào {A,B}<sup>+</sup> = {A,B,C,D,E} 
 
-kiểm tra CF→B: 
-B đã nằm trong {A,B}<sup>+</sup> nên không cần kiểm tra.
+kiểm tra CF→B: B đã nằm trong {A,B}<sup>+</sup> nên không cần kiểm tra.
 
 vậy {A,B}<sup>+</sup> = {A,B,C,D,E}
 
-3.
-kiểm tra AB → C không thêm gì vào {A}+
-kiểm tra BC → AD không thêm gì vào {A}+
-kiểm tra D → E không thêm gì vào {A}+
-kiểm tra CF → B không thêm gì vào {A}+
+3. <br>
+kiểm tra AB → C không thêm gì vào {A}<sup>+</sup>
+kiểm tra BC → AD không thêm gì vào {A}<sup>+</sup>
+kiểm tra D → E không thêm gì vào {A}<sup>+</sup>
+kiểm tra CF → B không thêm gì vào {A}<sup>+</sup>
 vậy {A}<sup>+</sup> ={A}
-neen A → D không suy dẫn từ F
+nen A → D không suy dẫn từ F
 
 4. 
 ta có A -> BD nên {A}<sup>+</sup> = {A,B,D}
@@ -44,7 +43,7 @@ Xet BE → C thi {B,E}<sup>+</sup> = {B,C,E} ma C → DE nen {B,E}<sup>+</sup> =
 vay {B,E} la khoa
 
 6.
-Xet A → B thi {A}<sup>+</sup> = {A,B}
-Xet BC → D thi {B,C}<sup>+</sup> = {B,C,D} ma D → A nen {B,C}<sup>+</sup> = {A,B,C,D}
-Xet D → A thi {D}<sup>+</sup> = {A,D} ma A → B nen {D}<sup>+</sup> = {A,B,D} thieu C
+Xet A → B thi {A}<sup>+</sup> = {A,B} <br>
+Xet BC → D thi {B,C}<sup>+</sup> = {B,C,D} ma D → A nen {B,C}<sup>+</sup> = {A,B,C,D} <br>
+Xet D → A thi {D}<sup>+</sup> = {A,D} ma A → B nen {D}<sup>+</sup> = {A,B,D} thieu C <br>
 vay {B,C} la khoa
